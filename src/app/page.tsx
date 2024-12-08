@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import { Button } from "@mui/material";
 
 export default function Home() {
   return (
@@ -88,6 +89,10 @@ export default function Home() {
           <p>
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
+          <h1>Welcome to Next.js with MUI</h1>
+          <Button variant="contained" color="primary">
+            MUI Button
+          </Button>
         </a>
       </div>
     </main>
